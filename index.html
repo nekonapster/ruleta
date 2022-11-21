@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Ruleta</title>
+</head>
+<body>
+    <h1>RULETA</h1>
+
+  <!-- Imagen de ruleta para animar, fabricada por mi en PS -->
+        <img src="img/ruleta.png" alt="imagen de ruleta by nekonapster">
+ 
+    <!-- contenedor de botones -->
+    <div class="btn_container">
+        <button id="btn_gRuleta">GIRAR RULETA</button>
+        <button id="btn_bRuleta">BUSCAR LETRA</button>
+        <button id="btn_cVocal">COMPRAR VOCAL</button>
+        <button id="btn_resolver">RESOLVER</button>
+        <button id="btn_mFacil">MODO FACIL</button>
+        <button id="btn_vJugar">VOLVER A JUGAR</button>
+    </div>
+
+    
+    <!-- contenedor de codigos -->
+    <div class="codigos">
+        <ol>
+            <li>0€</li>
+            <li>100€</li>
+            <li>200€</li>
+            <li>300€</li>
+            <li>400€</li>
+            <li>500€</li>
+            <li>600€</li>
+            <li>700€</li>
+            <li>800€</li>
+            <li>900€</li>
+            <li>BANCARROTA</li>
+        </ol>
+    </div>
+    
+<!-- titulo del panel -->
+    <h2 class="ttl_panel">PANEL</h2>
+    
+    <!--zona del panel que se debe resolver  -->
+    <h3 id="panelAResolver"></h3>
+
+    <!-- subpanel donde muestra un resumen de las acciones jugadas  -->
+    <div class="subPanel">
+        <p>Poscicion:</p>
+        <p>Sumas:</p>
+        <p>Acumulado:</p>
+        <p>Tirada nº:</p>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+girar ruleta: selecciona aleatoriamente una de las opciones de "codigo"
+
+buscar letra (solo consonantes): alert para pner una letra. si la letra esta en el panel oculto se multiplicara por el codigo que salio en "girar ruleta"
+
+comprar vocal (solo vocales): tenemos que tener al menos 2000€ en la banca. 
+
+resolver: alert para escribir el panel. si no hacierta te descubre el panel y te manda a casa.
+
+volver a jugar: resetea el juego.
+
+modo facil: solo se podra ejecutar al priunciupio del juego. es un ayuda memora de las letras que fuiste adivinando.
